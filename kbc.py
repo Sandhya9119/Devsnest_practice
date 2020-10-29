@@ -64,7 +64,7 @@ def kbc():
     	
     	# check for the input validations
     	if flag==1 and i!=14:
-    		LifelineCheck=input('\n Do you want to use lifeline?(yes/no)')
+    		LifelineCheck=input('\n Do you want to use lifeline(50-50 chance)?(yes/no)')
     		if LifelineCheck.lower()=='yes':
     			lifeLine(QUESTIONS[i],i)
     			flag=flag-1
